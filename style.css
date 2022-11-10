@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #a9e34b;
+}
+
+.principal-container {
+  width: 27rem;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-container {
+  flex: 1;
+  display: flex;
+}
+
+.cell {
+  border: 2px solid black;
+  flex: 1;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: #d8f5a2;
+}
+
+.restart-btn {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: black;
+  letter-spacing: 2px;
+}
+
+.restart-btn:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.vs {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 0.5rem;
+}
+
+.score-container {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.player-container {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
