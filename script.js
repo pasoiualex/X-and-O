@@ -96,6 +96,8 @@ function restartGame() {
   player2 = [];
   player1 = [];
   flag = true;
+  score.p1 = 0;
+  score.p2 = 0;
 }
 function restartCells() {
   for (let i = 0; i < cells.length; i++) {
